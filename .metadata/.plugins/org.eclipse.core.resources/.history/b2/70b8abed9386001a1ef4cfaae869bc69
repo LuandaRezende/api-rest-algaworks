@@ -1,0 +1,10 @@
+package com.rest.api.exceptionhandler;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
+@ControllerAdvice //componente do spring onde coloca os tratamentos de exception de todos controladores
+public class ApiExceptionHandler extends ResponseEntityExceptionHandler {
+
+}

@@ -1,0 +1,13 @@
+package com.rest.api.exceptionhandler;
+
+import java.time.LocalDateTime;
+
+public class Problema {
+
+	private Integer status;
+	private LocalDateTime dataHora;
+	private String titulo;
+	
+	
+	
+}

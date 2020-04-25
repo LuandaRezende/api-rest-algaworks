@@ -1,0 +1,5 @@
+package com.rest.api.domain.repository;
+
+public class ComentarioRepository {
+
+}

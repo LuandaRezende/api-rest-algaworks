@@ -1,0 +1,18 @@
+package com.rest.api.controller;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.rest.api.model.ComentarioInput;
+import com.rest.api.model.ComentarioModel;
+
+@RestController
+@RequestMapping("/ordens-servico/{ordemServicoId}/comentarios")
+public class ComentarioController {
+
+	public ComentarioModel adicionar(@PathVariable Long ordemServicoId, @Valid @RequestBody ComentarioInput comentarioInput) {
+		
+	}
+}

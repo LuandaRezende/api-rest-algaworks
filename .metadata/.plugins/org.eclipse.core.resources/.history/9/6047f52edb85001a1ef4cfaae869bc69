@@ -1,0 +1,4 @@
+# MySQL
+spring.datasource.url=jdbc:mysql://localhost/api-rest?createDataBaseIfNotExist=true&serverTimeZone=UTC
+spring.datasource.username=root
+spring.datasource.password=123456

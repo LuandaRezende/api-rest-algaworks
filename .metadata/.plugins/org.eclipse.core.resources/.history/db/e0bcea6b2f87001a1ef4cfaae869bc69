@@ -1,0 +1,5 @@
+package com.rest.api.core;
+
+public class ModelMapperConfig {
+
+}
